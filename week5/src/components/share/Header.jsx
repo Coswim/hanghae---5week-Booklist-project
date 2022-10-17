@@ -6,6 +6,7 @@ import '../../font/font.css';
 function Header() {
   const navigate = useNavigate();
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <Head>
       <InnerHead
         onClick={() => {
