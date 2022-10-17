@@ -1,10 +1,8 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-const Button = (props) => {
-    return(
-        <button>{props.children}</button>
-    )
+function Button({ children }) {
+  return <button type="button">{children}</button>;
 }
 
 export default Button;
